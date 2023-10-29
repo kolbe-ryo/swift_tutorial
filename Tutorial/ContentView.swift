@@ -10,7 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, Swift!")
+            Text("Hello, Swift")
+                .font(.title2)
+                .bold()
+                .foregroundColor(.blue)
+                .padding([.top, .leading, .trailing])
         }
         .padding()
     }
