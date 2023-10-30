@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("California")
                     .font(.subheadline)
             }
-            
+            Image("IMG_0876")   
         }
         .padding()
     }
