@@ -7,14 +7,12 @@ struct ContentView: View {
                 .frame(height: 300)
             CircleImage()
             VStack(alignment: .leading) {
-                
                 Text("Hello, Swift")
                     .font(.title2)
                     .bold()
                     .foregroundColor(.blue)
                 HStack {
                     Text("Joshua Tree National Park")
-                    
                     Spacer()
                     Text("California")
                 }
