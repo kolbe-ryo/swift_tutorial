@@ -1,18 +1,23 @@
-//
-//  LnadmarkRow.swift
-//  Tutorial
-//
-//  Created by Ryo Fukahori on 2023/11/03.
-//
 
 import SwiftUI
 
-struct LnadmarkRow: View {
+struct LandmarkRow: View {
+    var landmark: Landmark
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            landmark.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(landmark.getName)
+            Spacer()
+        }
     }
 }
 
 #Preview {
-    LnadmarkRow()
+    Group{
+        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: landmarks[1])
+    }
 }

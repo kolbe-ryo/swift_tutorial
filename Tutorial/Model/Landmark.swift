@@ -23,6 +23,10 @@ struct Landmark: Hashable, Codable {
             longitude: coordinates.longitude
         )
     }
+    
+    var getName: String {
+        return name
+    }
 }
 
 struct Coordinates: Hashable, Codable {
