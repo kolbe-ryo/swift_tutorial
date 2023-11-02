@@ -27,6 +27,10 @@ struct Landmark: Hashable, Codable {
     var getName: String {
         return name
     }
+    
+    var getId: Int {
+        return id
+    }
 }
 
 struct Coordinates: Hashable, Codable {
