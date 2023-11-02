@@ -3,7 +3,7 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List(landmarks, id: \.getId) { landmark in
+        List(landmarks) { landmark in
             LandmarkRow(landmark: landmark)
         }
     }

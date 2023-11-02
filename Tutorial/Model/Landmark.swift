@@ -2,8 +2,8 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
-    private var id: Int
+struct Landmark: Hashable, Codable, Identifiable {
+    internal var id: Int
     private var name: String
     private var park: String
     private var state: String
