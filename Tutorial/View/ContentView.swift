@@ -1,23 +1,18 @@
 import SwiftUI
 
-
-
 struct ContentView: View {
-    
     var body: some View {
         VStack {
             MapView()
                 .frame(height: 300)
             CircleImage()
             VStack(alignment: .leading) {
-                
                 Text("Hello, Swift")
                     .font(.title2)
                     .bold()
                     .foregroundColor(.blue)
                 HStack {
                     Text("Joshua Tree National Park")
-                    
                     Spacer()
                     Text("California")
                 }
@@ -35,9 +30,6 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .previewDevice("iPhone 14")
-    }
+#Preview {
+    ContentView()
 }
