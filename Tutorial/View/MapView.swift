@@ -1,20 +1,25 @@
-//
-//  SwiftUIView.swift
-//  Tutorial
-//
-//  Created by Ryo Fukahori on 2023/10/30.
-//
 
 import SwiftUI
 import MapKit
 
+@available(iOS 17.0, *)
 struct MapView: View {
+    var coordinate: CLLocationCoordinate2D
+    
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(position: .constant(.region(region)))
     }
     
-    @State private var region: MKCoordinateRegion = .init(
-        center: .init(latitude: 37.331432, longitude: 122.030289),
-        span: .init(latitudeDelta: 0.2, longitudeDelta: 0.2)
+    private var region: MKCoordinateRegion {
+        MKCoordinateRegion(
+            center: coordinate,
+            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+        )
+    }
+}
+
+@available(iOS 17.0, *)
+#Preview {
+    MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868)
     )
 }
