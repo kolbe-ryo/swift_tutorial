@@ -16,6 +16,7 @@
 		C9412E372AED424800A33A52 /* TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9412E362AED424800A33A52 /* TutorialUITestsLaunchTests.swift */; };
 		C949D1492AEFFC190099CB56 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C949D1482AEFFC190099CB56 /* MapView.swift */; };
 		C9B96DC82AF3EC5D00150DB8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B96DC72AF3EC5D00150DB8 /* Landmark.swift */; };
+		C9B96DCA2AF3F4EE00150DB8 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B96DC92AF3F4EE00150DB8 /* ModelData.swift */; };
 		C9EAEFCC2AEFFED700922395 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EAEFCB2AEFFED700922395 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		C9412E362AED424800A33A52 /* TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C949D1482AEFFC190099CB56 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C9B96DC72AF3EC5D00150DB8 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		C9B96DC92AF3F4EE00150DB8 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		C9EAEFCB2AEFFED700922395 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				C949D1482AEFFC190099CB56 /* MapView.swift */,
 				C9EAEFCB2AEFFED700922395 /* CircleImage.swift */,
 				C9B96DC72AF3EC5D00150DB8 /* Landmark.swift */,
+				C9B96DC92AF3F4EE00150DB8 /* ModelData.swift */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C9412E192AED424400A33A52 /* TutorialApp.swift in Sources */,
 				C949D1492AEFFC190099CB56 /* MapView.swift in Sources */,
 				C9B96DC82AF3EC5D00150DB8 /* Landmark.swift in Sources */,
+				C9B96DCA2AF3F4EE00150DB8 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
