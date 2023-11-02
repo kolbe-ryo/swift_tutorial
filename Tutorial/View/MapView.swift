@@ -1,9 +1,3 @@
-//
-//  SwiftUIView.swift
-//  Tutorial
-//
-//  Created by Ryo Fukahori on 2023/10/30.
-//
 
 import SwiftUI
 import MapKit
