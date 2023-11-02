@@ -1,15 +1,18 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate: landmark.locationCoordinate)
                 .frame(height: 300)
             
             CircleImage(image: Image("turtlerock"))
-                .offset(y: -130)
-                .padding(.bottom, -130)
+                .offset(y: 20)
+                .padding(.bottom, 10)
             
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
@@ -34,6 +37,7 @@ struct LandmarkDetail: View {
     }
 }
 
+@available(iOS 17.0, *)
 #Preview {
-    LandmarkDetail()
+    LandmarkDetail(landmark: landmarks[0])
 }
