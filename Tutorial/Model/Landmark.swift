@@ -4,10 +4,10 @@ import CoreLocation
 
 struct Landmark: Hashable, Codable, Identifiable {
     internal var id: Int
-    private var name: String
-    private var park: String
-    private var state: String
-    private var description: String
+    var name: String
+    var park: String
+    var state: String
+    var description: String
     
     private var imageName: String
     
