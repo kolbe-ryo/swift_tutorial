@@ -2,7 +2,7 @@
 import SwiftUI
 
 @main
-struct TutorialApp: App {
+struct LandmarkApp: App {
     @State private var modelData = ModelData()
     
     var body: some Scene {
