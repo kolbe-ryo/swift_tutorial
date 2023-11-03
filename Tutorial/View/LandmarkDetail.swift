@@ -1,7 +1,6 @@
 
 import SwiftUI
 
-@available(iOS 17.0, *)
 struct LandmarkDetail: View {
     var landmark: Landmark
     
@@ -39,7 +38,8 @@ struct LandmarkDetail: View {
     }
 }
 
-@available(iOS 17.0, *)
 #Preview {
-    LandmarkDetail(landmark: landmarks[0])
+    let landmarks = ModelData().landmarks
+    
+    return LandmarkDetail(landmark: landmarks[0])
 }
