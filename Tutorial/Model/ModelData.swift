@@ -4,6 +4,17 @@ import Foundation
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    
+    var categories: [String: [Landmark]] {
+        // カテゴリ名でグローピングしたLandmarkのMapが完成する
+        Dictionary(
+            grouping: landmarks
+//            by: {$0.category.rawValue}
+//            下の描き方と同じ
+        ) {
+            return $0.category.rawValue
+        }
+    }
 }
 
 

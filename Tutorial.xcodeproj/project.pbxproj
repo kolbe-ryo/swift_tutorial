@@ -34,6 +34,7 @@
 		C9FEAF932AF74BDF0081099A /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF8F2AF74BDE0081099A /* HikeView.swift */; };
 		C9FEAF942AF74BDF0081099A /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF902AF74BDF0081099A /* HikeGraph.swift */; };
 		C9FEAF952AF74BDF0081099A /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF912AF74BDF0081099A /* GraphCapsule.swift */; };
+		C9FEAF982AF7BE230081099A /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF972AF7BE230081099A /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		C9FEAF8F2AF74BDE0081099A /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		C9FEAF902AF74BDF0081099A /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		C9FEAF912AF74BDF0081099A /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		C9FEAF972AF7BE230081099A /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		C9B96DCB2AF3F74500150DB8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C9FEAF962AF7BE0F0081099A /* Category */,
 				C9FEAF8D2AF74B810081099A /* Hikes */,
 				C9B96DE52AF4D3D300150DB8 /* Badge */,
 				C9B96DD92AF496AC00150DB8 /* Landmarks */,
@@ -243,6 +246,14 @@
 				C9FEAF8F2AF74BDE0081099A /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		C9FEAF962AF7BE0F0081099A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C9FEAF972AF7BE230081099A /* CategoryHome.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FEAF952AF74BDF0081099A /* GraphCapsule.swift in Sources */,
+				C9FEAF982AF7BE230081099A /* CategoryHome.swift in Sources */,
 				C9412E1B2AED424400A33A52 /* ContentView.swift in Sources */,
 				C9B96DE42AF4CEED00150DB8 /* Badge.swift in Sources */,
 				C9EAEFCC2AEFFED700922395 /* CircleImage.swift in Sources */,
