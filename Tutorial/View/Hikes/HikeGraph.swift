@@ -34,6 +34,7 @@ struct HikeGraph: View {
                         range: observation[keyPath: path],
                         overallRange: overallRange
                     )
+                    .animation(.ripple(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
@@ -54,9 +55,11 @@ func magnitude(of range: Range<Double>) -> Double {
 }
 
 extension Animation {
-    static func ripple() -> Animation {
-        Animation.default
-        
+    static func ripple(index: Int) -> Animation {
+        Animation
+            .spring(dampingFraction: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
     }
 }
 
