@@ -37,6 +37,7 @@
 		C9FEAF982AF7BE230081099A /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF972AF7BE230081099A /* CategoryHome.swift */; };
 		C9FEAF9A2AF7C34C0081099A /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF992AF7C34C0081099A /* CategoryRow.swift */; };
 		C9FEAF9C2AF7C76B0081099A /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF9B2AF7C76B0081099A /* CategoryItem.swift */; };
+		C9FEAF9E2AF91F900081099A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF9D2AF91F900081099A /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		C9FEAF972AF7BE230081099A /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		C9FEAF992AF7C34C0081099A /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C9FEAF9B2AF7C76B0081099A /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		C9FEAF9D2AF91F900081099A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				C9B96DC72AF3EC5D00150DB8 /* Landmark.swift */,
 				C9B96DE82AF4D5ED00150DB8 /* Hike.swift */,
 				C9B96DC92AF3F4EE00150DB8 /* ModelData.swift */,
+				C9FEAF9D2AF91F900081099A /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FEAF9A2AF7C34C0081099A /* CategoryRow.swift in Sources */,
+				C9FEAF9E2AF91F900081099A /* Profile.swift in Sources */,
 				C9FEAF952AF74BDF0081099A /* GraphCapsule.swift in Sources */,
 				C9FEAF982AF7BE230081099A /* CategoryHome.swift in Sources */,
 				C9412E1B2AED424400A33A52 /* ContentView.swift in Sources */,
