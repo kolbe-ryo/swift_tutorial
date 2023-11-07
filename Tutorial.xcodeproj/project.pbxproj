@@ -40,6 +40,7 @@
 		C9FEAF9E2AF91F900081099A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAF9D2AF91F900081099A /* Profile.swift */; };
 		C9FEAFA72AFA75810081099A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFA62AFA75810081099A /* ProfileSummary.swift */; };
 		C9FEAFA92AFA75970081099A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFA82AFA75970081099A /* ProfileHost.swift */; };
+		C9FEAFAB2AFA76540081099A /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFAA2AFA76540081099A /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		C9FEAF9D2AF91F900081099A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		C9FEAFA62AFA75810081099A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		C9FEAFA82AFA75970081099A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		C9FEAFAA2AFA76540081099A /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				C9FEAF8E2AF74BDE0081099A /* HikeDetail.swift */,
 				C9FEAF902AF74BDF0081099A /* HikeGraph.swift */,
 				C9FEAF8F2AF74BDE0081099A /* HikeView.swift */,
+				C9FEAFAA2AFA76540081099A /* HikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				C9B96DDD2AF4CB4F00150DB8 /* BadgeBackground.swift in Sources */,
 				C9FEAF932AF74BDF0081099A /* HikeView.swift in Sources */,
 				C949D1492AEFFC190099CB56 /* MapView.swift in Sources */,
+				C9FEAFAB2AFA76540081099A /* HikeBadge.swift in Sources */,
 				C9B96DC82AF3EC5D00150DB8 /* Landmark.swift in Sources */,
 				C9FEAFA72AFA75810081099A /* ProfileSummary.swift in Sources */,
 				C9B96DD12AF3F90F00150DB8 /* LandmarkRow.swift in Sources */,
