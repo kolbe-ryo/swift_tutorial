@@ -41,6 +41,7 @@
 		C9FEAFA72AFA75810081099A /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFA62AFA75810081099A /* ProfileSummary.swift */; };
 		C9FEAFA92AFA75970081099A /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFA82AFA75970081099A /* ProfileHost.swift */; };
 		C9FEAFAB2AFA76540081099A /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFAA2AFA76540081099A /* HikeBadge.swift */; };
+		C9FEAFAD2AFD07C90081099A /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEAFAC2AFD07C90081099A /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		C9FEAFA62AFA75810081099A /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		C9FEAFA82AFA75970081099A /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		C9FEAFAA2AFA76540081099A /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		C9FEAFAC2AFD07C90081099A /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 			children = (
 				C9FEAFA62AFA75810081099A /* ProfileSummary.swift */,
 				C9FEAFA82AFA75970081099A /* ProfileHost.swift */,
+				C9FEAFAC2AFD07C90081099A /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				C9FEAF922AF74BDF0081099A /* HikeDetail.swift in Sources */,
 				C9B96DDF2AF4CDFE00150DB8 /* BadgeSymbol.swift in Sources */,
 				C9B96DD32AF3FBC600150DB8 /* LandmarkList.swift in Sources */,
+				C9FEAFAD2AFD07C90081099A /* ProfileEditor.swift in Sources */,
 				C9B96DD52AF3FF8000150DB8 /* LandmarkDetail.swift in Sources */,
 				C9B96DDD2AF4CB4F00150DB8 /* BadgeBackground.swift in Sources */,
 				C9FEAF932AF74BDF0081099A /* HikeView.swift in Sources */,
