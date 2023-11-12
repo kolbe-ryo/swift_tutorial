@@ -1,9 +1,3 @@
-//
-//  CircleImage.swift
-//  Tutorial
-//
-//  Created by Ryo Fukahori on 2023/10/31.
-//
 
 import SwiftUI
 
@@ -23,8 +17,8 @@ struct CircleImage: View {
                 Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
-            .offset(y: -130)
-            .padding(.bottom, -130)
+//            .offset(y: -130)
+//            .padding(.bottom, -130)
     }
 }
 
